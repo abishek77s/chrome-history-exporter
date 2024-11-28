@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "History Exporter by Web Wrapped",
+  "version": "1.0",
+  "description": "Export browsing history in CSV format.",
+  "permissions": [
+    "history",
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/ww.png"
+  }
+}

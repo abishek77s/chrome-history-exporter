@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>History Exporter</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        select, button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Export Browser History</h3>
+    <select id="timeRange">
+        <option value="1">Last Day</option>
+        <option value="7">Last Week</option>
+        <option value="30">Last Month</option>
+        <option value="365">Last Year</option>
+        <option value="today">Today</option>
+    </select>
+    <button id="exportHistory">Export History</button>
+    <script src="popup.js"></script>
+</body>
+</html>
